@@ -1,7 +1,7 @@
 # cammUtils-vTigerNetApi
 
 A library written in C# which allows easy access to the VTiger CRM webservice (for VTiger V6 or later).
-It is capable to use every aspect of the VTiger-Webservice as is. [![NuGet VTigerNetApi](https://img.shields.io/nuget/v/VTigerNetApi.svg?label=VTigerNetApi)](https://www.nuget.org/packages/VTigerNetApi/)
+It is capable to use every aspect of the VTiger-Webservice as is. [![NuGet VTigerNetApi](https://img.shields.io/nuget/v/VTigerNetApi.svg?label=VTigerNetApi)](https://www.nuget.org/packages/VTigerNetApi/) ![Travis CI build status](https://travis-ci.com/CompuMasterGmbH/cammUtils-vTigerNetApi.svg?branch=master)
 
 ## Short example of using the VTiger .NET API
 
@@ -28,7 +28,7 @@ if (dt.Rows.Count > 0)
 ```
 
 ### Notes
-Please also review https://wiki.vtiger.com/index.php/Webservice_reference_manual for general notes on using the VTiger Webservice API.
+Please also review https://www.vtiger.com/docs/rest-api-for-vtiger and https://community.vtiger.com/help/vtigercrm/developers/third-party-app-integration.html for general notes on using the VTiger Webservice API.
 
 **NOTE 1** about VTiger-Login:
 In order to log in, you need the authentication-key which can be found in user's profile-settings.
@@ -66,4 +66,4 @@ To connect your application with a running instance quickly, you might consider 
 ## VTiger Version Support
 * V5: supported
 * V6: supported
-* V7: (to be) supported (feedback welcome!) - please report any issues you find!
+* V7: supported
